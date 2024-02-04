@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b65dd3;
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header {
+    background-image: url('Grow\ your\ business.png'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Altura del banner */
+    color: white;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+section {
+    padding: 60px 20px;
+    color:#333;
+    text-align: center;
+}
+
+.banner {
+    padding: 60px 20px;
+    color:#333;
+    text-align: center;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.757);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+
+.cards {
+display: flex;
+padding: 60px 20px ;
+margin-left: auto ;
+margin-right: auto;
+justify-content: space-between;
+text-align: center;
+
+}
+.servicios {
+    display: flex;
+    padding: 60px 20px ;
+    margin-left: auto ;
+    margin-right: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.services {
+    display: flex;
+    padding: 60px 20px ;
+    margin-left: auto ;
+    margin-right: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+}
